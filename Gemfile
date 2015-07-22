@@ -82,14 +82,14 @@ gem 'inherited_resources'
 gem 'has_scope', '>= 0.6.0.rc'
 gem 'spectator-validates_email',  require: 'validates_email'
 gem 'video_info', '>= 1.1.1'
-gem 'httparty', '~> 0.6.1' # this version is required by moip gem, otherwise payment confirmation will break
+gem 'httparty' # this version is required by moip gem, otherwise payment confirmation will break
 
 # Translations
 gem 'http_accept_language'
 gem 'routing-filter', '~> 0.4.0.pre'
 
 # Payment
-gem 'moip', github: 'catarse/moip-ruby', ref: 'c0225ad71645cd1df35dafa1e45c9f092b3abb9e'
+gem 'moip', github: 'catarse/moip-ruby'
 gem 'httpclient',     '>= 2.2.5'
 
 group :production do
